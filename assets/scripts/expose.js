@@ -14,7 +14,7 @@ function init() {
     hornSelect.addEventListener('change', () => {
         if (hornSelect.value !== 'select') {
             hornImage.src = `assets/images/${hornSelect.value}.svg`;
-            hornSound.src = `assets/sounds/${hornSelect.value}.mp3`;
+            hornSound.src = `assets/audio/${hornSelect.value}.mp3`;
         }
     });
 
